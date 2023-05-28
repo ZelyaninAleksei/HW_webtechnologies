@@ -1,0 +1,52 @@
+body {
+    background-image: url(https://lookw.ru/1/532/1402243026-teksturi-14-44.jpg) ;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.cssFont_1 {
+    font-family: Comic Sans MS;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    }
+
+.cssFont_2 {
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    }
+
+.button_1 {
+    text-decoration: none; 
+    background-color: #006089;
+    color: #87e9f0;
+    border-color: #006089;
+    border-radius: 80px;
+}
+
+.input_1 {
+    background-color: #87e9f0;
+    border-radius: 80px;
+    padding: 6px
+}
+
+.image {
+    float: center;
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+}

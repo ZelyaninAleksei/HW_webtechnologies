@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <title>ДЗ1 "Конвектор"</title>
+    <script src="1.js" defer></script>
+</head>
+<body>
+    <h1 class="cssFont_2">Домашнее задание № </h1>
+    <p class="cssFont_1">Конвектор единиц измерения температуры</p>
+    <p><input class="input_1" id="numInput" type="text" autofocus></p>
+    <p>
+        <form action="Variant" method="post" name="box_var">
+            <select class="input_1" id="conversionOption" size="1">
+                <option value = "1">Цельсий -> Фаренгейт</option>
+                <option value = "2">Фаренгейт -> Цельсий</option>
+                <option value = "3">Цельсий -> Кельвин</option>
+                <option value = "4">Кельвин -> Цельсий</option>
+                <option value = "5">Фаренгейт -> Кельвин</option>
+                <option value = "6">Кельвин -> Фаренгейт</option>
+
+            </select>
+        </form></p>
+    <button class="button_1" type="button" onclick="handleConversion()">Выполнить конвертацию</button>
+    <img src="https://uwaterloo.ca/mathematics-online-learning/sites/ca.mathematics-online-learning/files/icon_abacus_0.png" alt="Здесь должна быть красивая картинка счётов" class="image">
+
+</body>
+</html>
